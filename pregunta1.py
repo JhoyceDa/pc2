@@ -8,8 +8,8 @@ def matriz():
      m = input("Ingrese el nombre de la matriz")
      for i in range(o):    
          suma = suma + m[i][i]
-    if suma %2==0:
+     if suma %2==0:
         print("la suma es par")
-    else:
+     else:
         print("la suma no es par")
      print(suma)
